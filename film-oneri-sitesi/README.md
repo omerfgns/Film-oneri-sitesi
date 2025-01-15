@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🎬 Film Öneri Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, kullanıcıların film keşfetmesini ve film tavsiyeleri almasını sağlayan interaktif bir web uygulamasıdır.
 
-## Available Scripts
+## 🚀 Özellikler
 
-In the project directory, you can run:
+- Kullanıcı kaydı ve girişi
+- Film arama ve filtreleme
+- Kişiselleştirilmiş film önerileri
+- Film detay sayfaları
+- Favori film listesi oluşturma
+- Film değerlendirme ve yorum yapma
 
-### `npm start`
+## 🛠️ Kullanılan Teknolojiler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Firebase Authentication
+- Context API
+- CSS Modules
+- TMDB API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔧 Kurulum
 
-### `npm test`
+1. Projeyi klonlayın:
+bash
+git clone https://github.com/kullaniciadi/film-oneri-sitesi.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Proje dizinine gidin:
+bash
+cd film-oneri-sitesi
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Gerekli paketleri yükleyin:
+bash
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Uygulamayı başlatın:
+bash
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💡 Kullanım
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Ana sayfada popüler filmler listelenir
+- Üye olmak için "Kayıt Ol" butonunu kullanın
+- Giriş yaptıktan sonra filmleri favorilere ekleyebilir ve yorum yapabilirsiniz
+- Arama çubuğunu kullanarak istediğiniz filmi bulabilirsiniz
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Katkıda Bulunma
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Bu projeyi fork edin
+2. Yeni bir branch oluşturun (`git checkout -b feature/yeniOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`)
+4. Branch'inizi push edin (`git push origin feature/yeniOzellik`)
+5. Pull Request oluşturun
 
-## Learn More
+## 📝 Lisans
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📞 İletişim
 
-### Code Splitting
+Proje Sahibi - [@omerfgns](https://github.com/omerfgns)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Proje Linki: [https://github.com/omerfgns/film-oneri-sitesi](https://github.com/omerfgns/film-oneri-sitesi)
